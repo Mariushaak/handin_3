@@ -39,9 +39,16 @@ $\begin{pmatrix} 1&1&1 \\ -1&0&2 \end{pmatrix} ->
 $\begin{pmatrix} 1 \\ 2 \end{pmatrix} -> 
  \underline{\underline{(-2) \cdot \begin{pmatrix} 1 \\ -1 \end{pmatrix} + 3 \cdot \begin{pmatrix} 1 \\ 0 \end{pmatrix}}}$ \\\\
  
- \textbf{c)}\\
+\textbf{c)}\\
+ 
+Scalar product: $\frac{1}{\sqrt{2}}\cdot(1\cdot1) + \frac{1}{\sqrt{2}}\cdot(-1\cdot1) = 0 $\\ 
+ 
+Length of vector u: $\frac{1}{\sqrt{2}} \cdot \sqrt{1^2+1^2} = \frac{1}{\sqrt{2}}\cdot\sqrt{2} = 1$ \\
  
  
+Length of vector v: $\frac{1}{\sqrt{2}} \cdot \sqrt{(-1)^2+1^2} = \frac{1}{\sqrt{2}}\cdot\sqrt{2} = 1$ \\
+ 
+\underline{\underline{So the vectors u and v are orthogonal and has the length 1.}} \\
  
  
  
@@ -54,21 +61,50 @@ $  = \frac{1}{\sqrt{2}} \cdot w \cdot (1\cdot1+4\cdot(-1)) \\\\$
 
 $= -\frac{3}{\sqrt{2}} \cdot \frac{1}{\sqrt{2}} \cdot \begin{pmatrix} 1 \\ -1 \end{pmatrix} $ \\\\
 
-$ = \frac{3}{2} \cdot \begin{pmatrix} 1 \\ -1 \end{pmatrix} = \frac{3}{2} \cdot 1 \cdot 
-	\begin{pmatrix} 1 \\ 0 \end{pmatrix} + \frac{3}{2} \cdot (-1) \cdot 
-	\begin{pmatrix} 0 \\ 1 \end{pmatrix} $
+$ = -\frac{3}{2} \cdot \begin{pmatrix} 1 \\ -1 \end{pmatrix} = - \frac{3}{2} \cdot 1 \cdot 
+	\begin{pmatrix} 1 \\ 0 \end{pmatrix} - \frac{3}{2} \cdot (-1) \cdot 
+	\begin{pmatrix} 0 \\ 1 \end{pmatrix} $  = STANDARD BASIS \\
+	
+$ -\frac{3}{2} \cdot \begin{pmatrix} 1 \\ -1 \end{pmatrix} = -\frac{3}{2} \cdot \begin{pmatrix} 1 \\ -1 \end{pmatrix}_C$ = BASIS C \\
  
+ \textbf{e)}\\
  
+$ \begin{pmatrix} \frac{1}{\sqrt{2}}&\frac{1}{\sqrt{2}}&1 \\ -\frac{1}{\sqrt{2}}&\frac{1}{\sqrt{2}}&4 \end{pmatrix} $ \\\\
+
+By performing gaussian elimination on the matrix we get: \\\\
+
+$ \begin{pmatrix} 1&0&(\sqrt2 - \frac{4\cdot\sqrt{2}+\sqrt{2}}{2}) \\ 0&1&(\frac{4\cdot\sqrt{2}+\sqrt{2}}{2}) \end{pmatrix}$\\\\
+
+Which translates to: \\\\
+
+\underline{\underline{$ \begin{pmatrix} 1\\4 \end{pmatrix} $ on basis C = $\begin{pmatrix} 	 
+\sqrt2 - \frac{4\cdot\sqrt{2}+\sqrt{2}}{2} \\ \frac{4\cdot\sqrt{2}+\sqrt{2}}{2} \end{pmatrix}_C $ }}\\
+
+\section{Task 2:}
+
+\textbf{a)}\\
+ 
+\textbf{b)}\\
+
+\textbf{c)}\\
 \section{Task 3:}
+
+
  
 \textbf{a)}\\
 
-$u = \begin{pmatrix} 1\\1\\0 \end{pmatrix}, v = \begin{pmatrix} 0\\1\\1 \end{pmatrix}$ \\\\Orthogonal?\\\\  $u \cdot v = 1\cdot0 + 1\cdot1 + 0\cdot1 = 1 \neq 0$
-\\\\which means \underline{u and v are NOT orthogonal.}\\
+$u = \begin{pmatrix} 1\\1\\0 \end{pmatrix}, v = \begin{pmatrix} 0\\1\\1 \end{pmatrix}$ \\
+
+Orthogonal?\\
+
+$u \cdot v = 1\cdot0 + 1\cdot1 + 0\cdot1 = 1 \neq 0$\\
+
+which means \underline{u and v are NOT orthogonal.}\\
 
 \textbf{b)}\\
 
-Let's try to find a vector y to make the orthonormal basis u, y for plane H.\\\\
+Let's try to find a vector y to make the orthonormal basis u, y for plane H.\\
+
 span\{u,v\} = span\{u,y\} \\
 
 
